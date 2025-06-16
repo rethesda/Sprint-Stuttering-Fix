@@ -1,0 +1,18 @@
+{
+  "name": "sprint-stuttering-fix",
+  "version-string": "1.0.6",
+  "description": "Sprint Stuttering Fix for Starfield",
+  "homepage": "",
+  "license": "GPL-3.0-or-later",
+  "dependencies": [
+    "clib-util",
+    "rsm-binary-io",
+    {
+      "name": "spdlog",
+      "features": [ "wchar" ]
+    },
+    "unordered-dense",
+    "xbyak"
+  ],
+  "builtin-baseline": "7bf98dbcba23cd813e2dbe6319b6b0ed71652319"
+}
